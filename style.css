@@ -1,0 +1,61 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body {
+     min-height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background: rgb(3, 3, 3);
+}
+
+.wrapper {
+     display: flex;
+    align-items: center; 
+    justify-content: space-between;
+     max-width: 400px;
+     width: 100%;
+     background: #0485ff;
+     padding: 40px;
+     border-radius: 30px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.1) ;
+    }
+
+.wrapper .input-box h6 {
+    font-size: 16px;
+    font-weight: 450;
+    color: #fff;
+    margin-bottom: 2px;
+}
+
+.wrapper .icon {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 25px;
+
+}
+
+.wrapper .input-box input {
+
+    max-width: 100px;
+    height:50px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    color: #737373;
+
+}
+
+.input-box input::-webkit-inner-spin-button, 
+.input-box input::-webkit-outer-spin-button {
+     display: none;
+}
